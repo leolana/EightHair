@@ -5,6 +5,12 @@ using System.Threading.Tasks;
 
 namespace EightHair.Models
 {
+    public enum Gender
+    {
+        Male = 0,
+        Female = 1
+    }
+
     public class Client : EnterpriseDependency
     {
         public Guid Id { get; set; }
